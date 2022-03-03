@@ -23,11 +23,11 @@
 
          li.selected {
              background-color: hotpink;
-
-         }
-
-
-    </style>
+            }
+            li.selected ~ li:nth-child(odd) {
+                background-color: orange;
+            }
+ </style>
 </head>
 <body>
     <ul>
