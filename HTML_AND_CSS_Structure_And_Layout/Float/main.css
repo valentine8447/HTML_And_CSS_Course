@@ -17,7 +17,7 @@ div {
     float: left;
 }
 
-#FlexContainer {
+#FlexContainer div {
     display: flex;
     flex-wrap: wrap;
     background-color: antiquewhite;
