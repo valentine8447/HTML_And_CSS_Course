@@ -1,0 +1,29 @@
+
+
+
+
+img {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    
+}
+table tr td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+a:hover {
+font-size: 1.2em;
+}
+
+
+
+div {
+   display: inline-block;
+   margin-left: 50px;
+}
+
