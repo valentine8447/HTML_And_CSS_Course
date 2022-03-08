@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+    color: white;
+}
+
+header, nav, main,main div, footer {
+    background-color: #709495;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+main div {
+    border: 1px solid white;
+    width: 23%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.dislayFlex {
+    display: flex;
+    flex-flow: row wrap;
+}
