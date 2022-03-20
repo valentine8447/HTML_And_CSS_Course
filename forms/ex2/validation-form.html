@@ -51,6 +51,15 @@
             position: absolute;
             z-index: -1;
         }
+        input:valid,
+        textarea:valid {
+            border-bottom: 1px solid green;
+        }
+        input:invalid,
+        textarea:invalid {
+            border-bottom: 1px solid red;
+        }
+
     </style>
 </head>
 <body>
@@ -61,8 +70,8 @@
             <input type="text" name="firstname" id="first_name" placeholder="Your first name"
             required /><br />
         
-        <label for="last_name">Last name:</label><br />
-        <input type="text" name="lastname" id="last_name" placeholder="Your last name"
+        <label for="email">Email:</label><br />
+        <input type="email" name="email" id="email" placeholder="Your email"
         required /><br />
         </div>
         <div >
