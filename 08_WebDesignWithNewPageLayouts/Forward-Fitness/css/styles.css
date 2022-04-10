@@ -398,5 +398,9 @@ footer p a {
     #container {
         width: 1920px;
         margin: 0 auto;
+    table {
+        width: 80%;
     }
+    }
+
 }

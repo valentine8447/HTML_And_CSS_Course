@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table  {
+            background-color: indigo;
+        }
+        label {
+            padding-top: 20%;
+        }
+        .one {
+            background-color: coral;
+        }
+        .last {
+            background-color: coral;
+            width: 100%;
+            
+        }
+        .last th {
+            padding-left: 20%;
+        }
+        span, label {
+            color: chartreuse;
+        }
+        #submit {
+            background-color: greenyellow;
+            
+        }
+        #cancel {
+            background-color: crimson;
+            
+        }
+        .last th span {
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+        <th colspan="2" class="one"><span>Sign Up</span></th><br>
+          
+         <tr><th><label>First Name</label></th><td><input type="text" id="firstname" value="Enter First Name" required ></td></tr><br>
+        <tr><th><label>Last Name</label></th><td><input type="text" id="lastname" value="Enter Last Name" required ></td></tr><br>
+        <tr>
+            <th><label>Date of birth</label></th>
+             <td><select name="date">
+                 <option value="date">Date</option>
+                 <option value="date">11</option>
+                 <option value="date">12</option>
+                 <option value="date">13</option>
+             </select>
+             <select name="month">
+                 <option value="month">Month</option>
+                 <option value="month">april</option>
+                 <option value="month">maj</option>
+                 <option value="month">juni</option>
+                 
+             </select>
+             <select name="year">
+                 <option value="year">Year</option>
+                 <option value="1984">1984</option>
+                 <option value="1985">1985</option>
+                 <option value="1986">1986</option>
+
+             </select>
+            </td>
+            </tr><br>
+            <tr><th><label>Gender</label></th><td><input type="radio" id="radio" ><label>Male</label>
+            <input type="radio" id="radio" ><label>Female</label>
+            </td></tr><br>
+            <tr><th><label>Country</label></th>
+                <td>
+                    <select name="country">
+                        <option value="country">Country</option>
+                        <option value="macedonia">Macedonia</option>
+                        <option value="srbija">Srbija</option>
+                        <option value="hrvatska">Hrvatska</option>
+
+                    </select>
+                </td></tr><br>
+                <tr><th><label>E-mail</label></th><td><input type="email" id="email" value="Enter E-mail" required ></td></th></tr><br>
+                
+                 <tr> 
+                <th><label>Phone</label></th><td><input type="phone" id="phone" value="Enter phone" required ></td></tr><br>
+                <tr><th><label>Password</label></th><td><input type="Password" id="password" ></td></tr><br>
+                <tr><th><label>Confirm Password</label><td><input type="password" id="password" ></td></tr>
+                <tr>
+                    <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                                                     <input type="checkbox" id="checkbox" >&nbsp&nbsp&nbsp&nbsp&nbsp<label>J Agree to the Terms of use</label></th><br>
+                </tr>
+                <tr class="last">
+                    <th colspan="2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button name="submit" id="submit"><span>Submit</span></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button name="cancel" id="cancel"><span>Cancel</span></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                </tr>
+
+                
+
+        </table>
+    </form>
+</body>
+</html>
